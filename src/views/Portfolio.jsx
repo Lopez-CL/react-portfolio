@@ -18,9 +18,7 @@ const Portfolio = () =>{
     }
     return (
         <div>
-            <h3 className="port-heading">{ str === 'coding'?`Languages & Frameworks`: `Communication & Education Technologies` }</h3>
                 <Carousel skills = {skills} />
-            <h3 className="port-heading">{ str === 'coding'?`Projects`: `Learning Modules` }</h3>
                 <Projects projects = {projs}/>
         </div>
     )

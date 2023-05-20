@@ -56,6 +56,7 @@ a, a:visited{
 
 a:hover{
   opacity: .8;
+  cursor: pointer;
 }
 a:active{
   color: hsl(271, 79%, 48%);
@@ -66,7 +67,8 @@ a:active{
 .header {
   width: 100%;
   background-color: hsla(160, 86%, 45%, .6);
-  margin-bottom: 7rem
+  margin-bottom: 7rem;
+  padding: 1rem;
 }
 
 span.bottom-space {
@@ -158,7 +160,7 @@ span{
 }
 
 #about {
-  width: 600px;
+  width: 50%;
   margin-right: 3em;
   margin-bottom: 1em;
   /* margin-left: 1.5em; */
@@ -166,15 +168,13 @@ span{
   border: 3px white solid;
   border-radius: 15px;
   /* box-shadow: 0px 2px 3px  white; */
-  font-size: 14pt;
   display: flex;
   flex-direction: column;
 }
 
-#about h2,
-#work h2 {
-  text-align: center;
-  font-size: 24pt;
+#about p {
+  margin-top: .5rem;
+  line-height: 2rem;
 }
 
 #profile-img img {
@@ -187,6 +187,16 @@ span{
   box-shadow: 0px 2px 5px 3px white;
   margin-bottom: 3em;
   /* float: left; */
+}
+
+.contact-me{
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.contact-icon{
+  width: 100px;
 }
 
 #project-categories {
@@ -287,7 +297,7 @@ span{
 /* Category shift only */
 @media only screen and (max-width: 1360px) {
   #about {
-    /* width: 550px; */
+    width: 550px;
     margin-right: 3em;
     padding: 2em;
     border: 3px white solid;
@@ -460,7 +470,7 @@ span{
   overflow-x:auto;
   width: 100%;
   height: 200px;
-  margin: 20px;
+  /* margin: 10px; */
 }
 
 .carousel-wrapper {
@@ -549,6 +559,7 @@ span{
 }
 .proj-card-text a {
   font-size: 1.2rem;
+  text-decoration: underline;
 }
 
 .module-container{
@@ -561,7 +572,6 @@ span{
   flex: 0 1 auto;
 }
 /* Resume Component  */
-
 
 #resume-container{
   margin-top: 5rem;

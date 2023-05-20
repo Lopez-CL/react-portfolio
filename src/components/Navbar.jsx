@@ -1,5 +1,5 @@
 import React from 'react'
-
+// Will add an element for navigation in next soon
 const Navbar = () => {
     return (
         <div className='header'>

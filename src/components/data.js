@@ -73,7 +73,7 @@ export const modules = [
         title: "AI Literacy Intro",
         mode: "Slides",
         url: "https://www.canva.com/design/DAFb466sOPo/qQ3esq1sXlpwWTq6v5R-mQ/view?utm_content=DAFb466sOPo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
-        description: "Registered students can create, update, and delete research project to-do lists that help them create tasks, keep track of project status, and categorize research projects by subject."
+        description: `Final workshop in a digital literacy series that walks attendees through a series of questions and practices that comprise the foundation of AI Literacy. Attendees were encouraged to consider what costs us and our planet's resources to create and power these tools.`
     },
     {
         reSrc: infoLit,

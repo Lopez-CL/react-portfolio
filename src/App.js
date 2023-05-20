@@ -18,7 +18,7 @@ function App() {
     <div className='app-container' >
       <BrowserRouter>
         <Navbar/>
-          <Home footer = {footerDown} setFooterDown = {setFooterDown}/>
+        <Home footer = {footerDown} setFooterDown = {setFooterDown}/>
         <Routes>
           <Route path="/:str"  element={<Portfolio/>}/>
           <Route path="/resume"  element={<Resume/>}/>

@@ -1,7 +1,6 @@
 import {React, useState} from "react";
 import { useParams } from "react-router-dom";
 
-
 const Projects = (props) =>{
     const {str} = useParams();
     const {projects} = props
@@ -12,8 +11,19 @@ const Projects = (props) =>{
     const onMouseLeaveHandle = () =>{
         setCurrentProjIdx(null);
     }
+    let heading = ""
+    if(str === "coding"){
+        heading = "Projects"
+    }
+    else if (str === "inst-design") {
+        heading = "Learning Modules"
+    }
+    else{
+        heading = null
+    }
     return (
-        <>
+        <div>
+            <h3 className="port-heading">{heading}</h3>
             <div className="portfolio-projects">
                 {str === "coding"&&
                     projects.map((item,idx) =>(
@@ -44,7 +54,7 @@ const Projects = (props) =>{
                     </div>
                 ))}
             </div>
-        </>
+        </div>
     )
 }
 
