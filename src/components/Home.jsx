@@ -59,7 +59,7 @@ const Home = (props) =>{
                             <div>
                             <img to={`/${category.path}`} className={`cat-pic ${idx === indexHovered? "shake":''}`}   src={category.src} alt={category.alt} />
                             </div>
-                            <Link to={`/${category.path}`} className={`${idx === indexHovered? "active-heading link":'link'}`} onClick={ e => checkFooter(footer)}>{category.heading}</Link>
+                            <Link to={`/${category.path}`} className={`${idx === indexHovered? "active-heading link":'link'}`} onClick={ e => checkFooter(footer)}>{ category.heading.toUpperCase()}</Link>
                         </div>
                     </div>
                 ))}
