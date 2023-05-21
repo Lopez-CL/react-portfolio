@@ -8,12 +8,6 @@ import Portfolio from './views/Portfolio';
 import Resume from './components/Resume';
 function App() {
   const [footerDown, setFooterDown] = useState(false)
-  /*  
-    * same sizes across headers
-    * same size for all p elements
-    * less margin around carousel
-    * more margin around top heading
-    * UPPER CASE button text */
   return (
     <div className='app-container' >
       <BrowserRouter>
