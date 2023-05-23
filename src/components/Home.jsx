@@ -43,7 +43,7 @@ const Home = (props) =>{
                         {
                         contact.map((item, idx) =>(
                             <div>
-                                <a href={item.href} target='_blank'><img className='contact-icon' src={item.src} alt={item.alt} title={item.title} ></img></a>
+                                <a href={item.href} target='_blank' rel="noreferrer"><img className='contact-icon' src={item.src} alt={item.alt} title={item.title} ></img></a>
                             </div>
                         ))
                         }

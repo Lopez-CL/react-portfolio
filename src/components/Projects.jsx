@@ -35,7 +35,7 @@ const Projects = (props) =>{
                             <div className="description-container">
                                 <p className="proj-card-text"><strong>Specs:</strong> {item.techSpec}</p>
                                 <p className="proj-card-text"><strong>Description:</strong> {item.description}</p>
-                                <p className="proj-card-text"><a href={item.url} target="_blank">CHECK OUT THE REPO</a></p>
+                                <p className="proj-card-text"><a href={item.url} target="_blank" rel="noreferrer">CHECK OUT THE REPO</a></p>
                             </div>
                         </div>
                     ))}
@@ -49,7 +49,7 @@ const Projects = (props) =>{
                         <div className="description-container">
                             <p className="proj-card-text"><strong>Resource Type:</strong> {item.mode}</p>
                             <p className="proj-card-text"><strong>Description:</strong> {item.description}</p>
-                            <p className="proj-card-text"><a href={item.url} target="_blank">EXPLORE RESOURCE</a></p>
+                            <p className="proj-card-text"><a href={item.url} target="_blank" rel="noreferrer">EXPLORE RESOURCE</a></p>
                         </div>
                     </div>
                 ))}

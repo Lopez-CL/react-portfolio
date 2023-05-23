@@ -1,6 +1,8 @@
-import './App.css';
-import {React, useState} from "react"
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import './Static.css';
+import './Component.css'
+import './MediaQueries.css'
+import { React, useState } from "react"
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Footer from './components/Footer';
@@ -11,14 +13,14 @@ function App() {
   return (
     <div className='app-container' >
       <BrowserRouter>
-        <Navbar/>
-        <Home footer = {footerDown} setFooterDown = {setFooterDown}/>
+        <Navbar />
+        <Home footer={footerDown} setFooterDown={setFooterDown} />
         <Routes>
-          <Route path="/:str"  element={<Portfolio/>}/>
-          <Route path="/resume"  element={<Resume/>}/>
+          <Route path="/:str" element={<Portfolio />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
         <div>
-          <Footer footer = {footerDown}/>
+          <Footer footer={footerDown} />
         </div>
       </BrowserRouter>
     </div>
