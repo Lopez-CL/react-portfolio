@@ -208,6 +208,7 @@ display: flex;
 flex: 0 1 400px;
 flex-wrap: wrap;
 justify-content: center;
+margin: 2rem 0;
 }
 
 .portfolios {
@@ -241,6 +242,7 @@ justify-content: center;
   border-radius: 15px;
   padding: .5em 1em;
   text-align: center;
+  cursor: pointer;
 }
 
 .shake {
