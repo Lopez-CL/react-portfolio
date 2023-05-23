@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.7eff9528.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.1997e977.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.1997e977.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.0b9645b5.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.0b9645b5.js.map",
-    "static/js/2.e5543ebe.chunk.js": "/react-portfolio/static/js/2.e5543ebe.chunk.js",
-    "static/js/2.e5543ebe.chunk.js.map": "/react-portfolio/static/js/2.e5543ebe.chunk.js.map",
-    "static/js/3.a9b9b88a.chunk.js": "/react-portfolio/static/js/3.a9b9b88a.chunk.js",
-    "static/js/3.a9b9b88a.chunk.js.map": "/react-portfolio/static/js/3.a9b9b88a.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.46fbe348.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.8c433b6d.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.8c433b6d.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.7c9c4c23.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.7c9c4c23.js.map",
+    "static/js/2.00717b3c.chunk.js": "/react-portfolio/static/js/2.00717b3c.chunk.js",
+    "static/js/2.00717b3c.chunk.js.map": "/react-portfolio/static/js/2.00717b3c.chunk.js.map",
+    "static/js/3.0e93e645.chunk.js": "/react-portfolio/static/js/3.0e93e645.chunk.js",
+    "static/js/3.0e93e645.chunk.js.map": "/react-portfolio/static/js/3.0e93e645.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/css/main.7eff9528.chunk.css.map": "/react-portfolio/static/css/main.7eff9528.chunk.css.map",
-    "static/js/2.e5543ebe.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.e5543ebe.chunk.js.LICENSE.txt",
+    "static/css/main.46fbe348.chunk.css.map": "/react-portfolio/static/css/main.46fbe348.chunk.css.map",
+    "static/js/2.00717b3c.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.00717b3c.chunk.js.LICENSE.txt",
     "static/media/MySQL.3b8829c8.png": "/react-portfolio/static/media/MySQL.3b8829c8.png",
     "static/media/aiLec.e2ec6909.png": "/react-portfolio/static/media/aiLec.e2ec6909.png",
     "static/media/annotatedbibs.6685a408.png": "/react-portfolio/static/media/annotatedbibs.6685a408.png",
@@ -47,9 +47,9 @@
     "static/media/wordpress-icon.fe63d505.png": "/react-portfolio/static/media/wordpress-icon.fe63d505.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0b9645b5.js",
-    "static/js/2.e5543ebe.chunk.js",
-    "static/css/main.7eff9528.chunk.css",
-    "static/js/main.1997e977.chunk.js"
+    "static/js/runtime-main.7c9c4c23.js",
+    "static/js/2.00717b3c.chunk.js",
+    "static/css/main.46fbe348.chunk.css",
+    "static/js/main.8c433b6d.chunk.js"
   ]
 }
