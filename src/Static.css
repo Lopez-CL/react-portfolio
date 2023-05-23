@@ -167,7 +167,7 @@ span{
   width: 50%;
   margin-right: 3em;
   margin-bottom: 1em;
-  /* margin-left: 1.5em; */
+  margin-bottom: 3.5rem;
   padding: 2em;
   border: 3px white solid;
   border-radius: 15px;
@@ -204,8 +204,10 @@ span{
 }
 
 #project-categories {
-margin-top: 3rem;
-margin-left: 350px !important;
+display: flex;
+flex: 0 1 400px;
+flex-wrap: wrap;
+justify-content: center;
 }
 
 .portfolios {
@@ -216,7 +218,8 @@ margin-left: 350px !important;
   /* margin: 0 10px; */
   padding: .5em 1em;
   text-align: center;
-  width: 160px;
+  min-width: 300px;
+  max-width: 400px;
 }
 
 .link{
