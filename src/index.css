@@ -19,4 +19,26 @@ body{
   height: 100%;
 }
 
+@media only screen and (max-width: 375px){
+  html {
+    margin: 0;
+    background-image: linear-gradient(45deg, hsl(160, 86%, 45%) 5% ,#c079fc 80%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px;
+  }
+  #root{
+    height: 100%;
+  }
+  body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100vh;
+  }
+}
+
 

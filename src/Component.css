@@ -78,14 +78,15 @@ Style Map by Component
     background-color: hsla(0, 0%, 100%, .8);
     color: black !important;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     justify-content: center;
     box-shadow: 0px 0px 0px 0px none;
     transition: box-shadow ease-in-out .5s;
-    flex: 0 1 25%;
+    flex: 0 1 400px;
     border-radius: 10px;
     padding: 1rem;
     margin-bottom: 2rem;
+    /* min-width: 400px !important; */
 }
 
 .portfolio-project-active {
@@ -94,7 +95,7 @@ Style Map by Component
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    flex: 0 1 25%;
+    flex: 0 1 400px;
     border-radius: 10px;
     padding: 1rem;
     box-shadow: -6px 12px 0px 3px black;
@@ -113,6 +114,10 @@ Style Map by Component
     max-height: 60%;
     filter: grayscale(100%);
     transition: filter ease-in-out .3s;
+}
+
+.image-container h3 {
+    width: auto;
 }
 
 .active-img {

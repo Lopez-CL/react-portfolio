@@ -34,6 +34,11 @@ const Home = (props) => {
     ]
     return (
         <div id='home-body'>
+            {/* <div className='hamburger'>
+                <span className='span-nav bottom-space'></span>
+                <span className='span-nav bottom-space'></span>
+                <span className='span-nav'></span>
+            </div> */}
             <div id='home-container'>
                 <div className='flex-item' id='profile-img'>
                     <img src={profile} alt="chris profile" />
